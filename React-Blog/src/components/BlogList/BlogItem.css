@@ -1,0 +1,30 @@
+.blog-items {
+  border: 2px solid rgb(32, 31, 31);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  justify-content: space-between;
+  content: "...";
+}
+
+.blog-image {
+  width: 150px;
+  height: 150px;
+}
+
+.blog-description {
+  font-size: smaller;
+  color: brown;
+  width: 250px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  justify-content: space-between;
+}
